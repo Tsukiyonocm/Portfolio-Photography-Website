@@ -1,0 +1,119 @@
+/*------------------------------------------------------------------
+[ Basic CSS Startup ]
+------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.clearFix {
+    overflow: auto;
+}
+
+/*------------------------------------------------------------------
+[ Header ]
+------------------------------------------------------------------*/
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,0.6), rgba(0,0,0,0), rgba(0,0,0,0.7)) ,url(../img/nasa-45072_1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.headerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.headerText {
+    margin: 50px;
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 5px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+    animation: fadeIn 3s ease-out;
+}
+
+.btn:link,
+.btn:visited {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 35px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    color: #000;
+    transition: all .2s ease-in;
+}
+
+.btn-white {
+    color: #fff;
+    border: 2px solid #fff;
+    animation: fadeIn 3s ease-out;
+}
+
+.btn-white:hover {
+    border: 2px solid #000;
+    transition: all .2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*------------------------------------------------------------------
+[ Main Navigation ]
+------------------------------------------------------------------*/
+
+.navigation {
+    background-color: #252f31;
+    padding: 25px;
+}
+
+.mainNav {
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.mainNav li {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainNav li a:hover,
+.mainNav li a:active {
+    color: #2fca6f;
+    cursor: pointer;
+    transition: color .3s ease-in;
+    text-decoration: none;
+}
