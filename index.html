@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Project</title>
+        <meta name="description" content="DESCRIPTION">
 
+        <!-- Roboto Font -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css" />
-
-        <title>Astrophotography Portfolio/Resume Example</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="header">
@@ -19,31 +20,56 @@
             </div>
         </header>
 
+        <!-- Slide Show Images -->
+        <div class="slideshow-container">
+            <div class="slides">
+                <img  class="image1" src="img/jeremy-thomas-98201.jpg" />
+            </div>
+
+            <div class="slides">
+                <img  class="image1" src="img/juskteez-vu-3824.jpg" />
+            </div>
+
+            <div class="slides">
+                <img  class="image1" src="img/nasa-89125.jpg" />
+            </div>
+        </div> <!-- End Slide Show Images -->
+
+        <div id="dots" class="clearFix">
+            <span class="top active"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
         <nav class="navigation clearFix">
-            <ul class="mainNav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Me</a>
-                </li>
-                <li>
-                    <a href="#">Skills</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact Me</a>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="mainNav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
+        <!-- JavaScript -->
+        <script src="js/scripts.js"></script>
     </body>
 </html>

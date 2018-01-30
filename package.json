@@ -1,0 +1,22 @@
+{
+  "name": "photographywebsite",
+  "version": "1.0.0",
+  "description": "A Photography Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsukiyonocm/Portfolio-Photography-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsukiyonocm/Portfolio-Photography-Website/issues"
+  },
+  "homepage": "https://github.com/Tsukiyonocm/Portfolio-Photography-Website#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
